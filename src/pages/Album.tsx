@@ -3,7 +3,7 @@ import Layout from "../component/Layout";
 import { useSongData } from "../context/songContext";
 import { useEffect } from "react";
 import Loading from "../component/Loading";
-import { FaBook, FaBookmark, FaPlay } from "react-icons/fa";
+import { FaBookmark, FaPlay } from "react-icons/fa";
 import { useUserData } from "../context/UserContext";
 
 const Album = () => {
